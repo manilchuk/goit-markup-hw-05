@@ -505,8 +505,9 @@ input {
 }
 
 .footer-form-text {
-  color: #f4f4fd;
   margin-bottom: 16px;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 .footer-form-container {
@@ -521,10 +522,14 @@ input {
 .footer-form-input {
   border: 1px solid #fff;
   border-radius: 4px;
-  background-color: #2e2f42;
+  background-color: transparent;
   min-width: 264px;
   height: 40px;
   padding: 8px 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -539,7 +544,7 @@ input {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-button {
@@ -572,6 +577,7 @@ input {
 }
 
 .footer-button-icon {
+  margin-left: 16px;
 }
 /* #endregion footer */
 
