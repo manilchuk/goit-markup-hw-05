@@ -66,7 +66,7 @@
             Effective Solutions<br />
             for Your Business
           </h1>
-          <button class="section-one-button" type="button">
+          <button class="section-one-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -509,9 +509,9 @@
     <!-- #endregion footer -->
 
     <!-- #region modal-overlay -->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn">
+        <button type="button" class="close-btn" data-modal-close>
           <svg class="icon-close-overlay" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -589,5 +589,6 @@
       </div>
     </div>
     <!-- #endregion modal-overlay -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
